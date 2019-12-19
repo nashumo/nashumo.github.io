@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Simpel-Medium";
+    src: url("Simpel-Medium.woff")
+}
+
+* {
+    font-family: "Simpel-Medium";
+}
+
+
+.cabecera {
+    color: #f0e9db;
+    text-align: center;
+    background-color: #2b3409;
+}
+
+section {
+    color: #2b3409;
+    text-align: center;
+    padding: 0.5% 2%;
+}
+
+.codigo {
+    background-color: #94b814;
+}
+
+
+.contenido {
+    background-color: #c21460;
+}
+
+section div {
+    background-color: #f0e9db;
+}
+
+.cuerpo {
+    padding-top: 1%;
+    line-height: .8em;
+    text-transform: capitalize;
+}
+
+.cabecera,
+section,
+.titular,
+.cuerpo {
+    border-radius: 10px;
+}
+
+.titular h5 {
+    font-family: "Segoe UI Symbol";
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+a:visited {
+    color: #7E257B;
+    text-decoration: none;
+}
+
+/*.aCod*/
+a.aCod:hover {
+    color: #94b814;
+    text-decoration-line: underline;
+    text-decoration-color: #94b814;
+}
+
+a.aCont:hover,
+a.aCod:active {
+    color: #c21460;
+    text-decoration-line: underline;
+    text-decoration-color: #c21460;
+}
+
+a.aCont:active {
+    color: #94b814;
+    text-decoration-line: underline;
+    text-decoration-color: #94b814;
+}
+
+.nota {
+    color: #2B122B;
+    font-size: .8em;
+    text-transform: none;
+}
